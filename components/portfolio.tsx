@@ -149,9 +149,11 @@ export function PortfolioSection() {
               </CardDescription>
             </CardHeader>
             <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden mx-6 mb-4">
-              <img
+              <Image
                 src="/placeholder.svg?height=200&width=300"
                 alt="Analytics Dashboard Screenshot"
+                height={1080}
+                width={1920}
                 className="w-full h-full object-cover"
               />
             </div>

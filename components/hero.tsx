@@ -5,6 +5,7 @@ import { Mail, Github, Linkedin} from "lucide-react"
 import { FaCode } from "react-icons/fa";
 import React from "react";
 import { scrollToSection } from "./scrollToSection";
+import Image from "next/image";
 
 export function HeroSection(){
     
@@ -15,9 +16,11 @@ export function HeroSection(){
           {/* Right side - Profile photo */}
           <div className="flex justify-center lg:justify-start lg:ml-[10%]">
             <div className="relative">
-              <img
-                src="img\IMG_5205.JPG"
+              <Image
+                src="/img/IMG_5205.JPG"
                 alt="Sande Effendi"
+                height={1000}
+                width={1000}
                 className="w-80 h-80 rounded-2xl object-cover border-2 border-gray-700"
               />
               <div className="absolute inset-y-0 left-[10%] right-0 rounded-2xl bg-gradient-to-r from-transparent via-green-400/10 to-green-400/30"></div>
