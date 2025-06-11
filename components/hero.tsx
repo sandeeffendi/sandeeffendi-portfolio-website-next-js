@@ -1,7 +1,8 @@
 "use client";
 
 import { Button } from "./ui/button";
-import { Download, Mail, Github, Linkedin} from "lucide-react"
+import { Mail, Github, Linkedin} from "lucide-react"
+import { FaCode } from "react-icons/fa";
 import React from "react";
 import { scrollToSection } from "./scrollToSection";
 
@@ -37,9 +38,9 @@ export function HeroSection(){
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-green-600 hover:bg-green-700 text-white font-mono" size="lg">
-                <Download className="mr-2 h-4 w-4" />
-                Download CV
+              <Button className="bg-green-600 hover:bg-green-700 text-white font-mono" size="lg" onClick={() => scrollToSection('portfolio')}>
+                <FaCode className="mr-2 h-4 w-4"  />
+                Check out my work
               </Button>
               <Button variant="outline" onClick={() => scrollToSection('contact')} className="border-gray-600 text-gray-900 hover:bg-gray-800 font-mono" size="lg">
                 <Mail className="mr-2 h-4 w-4" />
