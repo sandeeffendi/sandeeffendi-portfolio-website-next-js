@@ -17,7 +17,7 @@ export function HeroSection(){
           <div className="flex justify-center lg:justify-start lg:ml-[10%]">
             <div className="relative">
               <Image
-                src="/img/IMG_5205.JPG"
+                src="/img/IMG_5205.JPG" 
                 alt="Sande Effendi"
                 height={1000}
                 width={1000}
