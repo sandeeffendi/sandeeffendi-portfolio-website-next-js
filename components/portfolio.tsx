@@ -37,7 +37,7 @@ export function PortfolioSection() {
                 alt="E-Commerce Platform Screenshot"
                 width={300}
                 height={200}
-                className="w-fit h-fit"
+                className="w-full h-full"
               />
             </div>
             <CardContent className="space-y-4">
@@ -96,7 +96,7 @@ export function PortfolioSection() {
                 alt="Weather App Forecast Showcase"
                 width={300}
                 height={200}
-                className="w-fit h-fit object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
             <CardContent className="space-y-4">
@@ -154,7 +154,7 @@ export function PortfolioSection() {
                 alt="Analytics Dashboard Screenshot"
                 height={200}
                 width={300}
-                className="w-fit h-fit object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
             <CardContent className="space-y-4">
