@@ -22,7 +22,7 @@ export function PortfolioSection() {
 
         <div className="grid sm:grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Project 1 */}
-          <Card className="bg-gray-800 border-gray-700 hover:border-green-400 transition-colors">
+          <Card className="flex bg-gray-800 border-gray-700 hover:border-green-400 transition-colors">
             <CardHeader>
               <CardTitle className="text-white font-mono">
                 Company Landing Page
@@ -81,7 +81,7 @@ export function PortfolioSection() {
           </Card>
 
           {/* Project 2 */}
-          <Card className="bg-gray-800 border-gray-700 hover:border-green-400 transition-colors">
+          <Card className="flex bg-gray-800 border-gray-700 hover:border-green-400 transition-colors">
             <CardHeader>
               <CardTitle className="text-white font-mono">
                 Weather Forecast Application
@@ -139,7 +139,7 @@ export function PortfolioSection() {
           </Card>
 
           {/* Project 3 */}
-          <Card className="bg-gray-800 border-gray-700 hover:border-green-400 transition-colors">
+          <Card className="flex bg-gray-800 border-gray-700 hover:border-green-400 transition-colors">
             <CardHeader>
               <CardTitle className="text-white font-mono">
                 Analytics Dashboard
