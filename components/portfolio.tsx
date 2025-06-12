@@ -148,13 +148,12 @@ export function PortfolioSection() {
                 Data visualization platform
               </CardDescription>
             </CardHeader>
-            <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden mx-6 mb-4">
+            <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden mx-6 mb-4 relative">
               <Image
-                src="/placeholder.svg?height=200&width=300"
+                src="/img/weather-forecast-app.png"
                 alt="Analytics Dashboard Screenshot"
-                height={200}
-                width={300}
-                className="w-full h-full object-cover"
+                fill
+                className="object-cover"
               />
             </div>
             <CardContent className="space-y-4">
