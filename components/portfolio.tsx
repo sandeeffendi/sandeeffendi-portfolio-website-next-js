@@ -37,7 +37,7 @@ export function PortfolioSection() {
                 alt="E-Commerce Platform Screenshot"
                 width={300}
                 height={200}
-                className="w-full h-full"
+                className="w-full h-full object-cover"
               />
             </div>
             <CardContent className="space-y-4">
