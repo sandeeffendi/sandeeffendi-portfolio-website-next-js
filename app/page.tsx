@@ -12,7 +12,7 @@ export default function Portfolio() {
 
 
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100 font-mono scroll-smooth">
+    <div className="min-h-screen w-full overflow-x-hidden bg-gray-900 text-gray-100 font-mono scroll-smooth">
       <NavbarSection />
       <HeroSection />
       <AboutSection />

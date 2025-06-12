@@ -20,7 +20,7 @@ export function PortfolioSection() {
           <span className="text-gray-400">{" />"}</span>
         </h2>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Project 1 */}
           <Card className="bg-gray-800 border-gray-700 hover:border-green-400 transition-colors">
             <CardHeader>
@@ -47,7 +47,7 @@ export function PortfolioSection() {
                 highlight 3D signage, facade signs, and backlit letters with
                 clean UI and strong visual impact.
               </p>
-              <div className="flex gap-2">
+              <div className="flex flex-col gap-2 sm:grid sm:grid-cols-2">
                 <Button
                   size="sm"
                   variant="outline"
@@ -105,7 +105,7 @@ export function PortfolioSection() {
                 and Tailwind CSS. It shows current weather and a 3-hour interval
                 forecast for the day using data from the OpenWeatherMap API.
               </p>
-              <div className="flex gap-2">
+              <div className="flex flex-col gap-2 sm:grid sm:grid-cols-2">
                 <Button
                   size="sm"
                   variant="outline"
@@ -161,7 +161,7 @@ export function PortfolioSection() {
                 Interactive dashboard built with Vue.js and D3.js. Processes
                 large datasets and provides real-time insights.
               </p>
-              <div className="flex gap-2">
+              <div className="flex flex-col gap-2 sm:grid sm:grid-cols-2">
                 <Button
                   size="sm"
                   variant="outline"
