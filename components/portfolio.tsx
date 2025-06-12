@@ -20,7 +20,7 @@ export function PortfolioSection() {
           <span className="text-gray-400">{" />"}</span>
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Project 1 */}
           <Card className="bg-gray-800 border-gray-700 hover:border-green-400 transition-colors">
             <CardHeader>
