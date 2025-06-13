@@ -84,7 +84,7 @@ export function PortfolioSection() {
           <Card className="flex bg-gray-800 border-gray-700 hover:border-green-400 transition-colors">
             <CardHeader>
               <CardTitle className="text-white font-mono">
-                Weather Forecast Application
+                Weather Forecast Application V2
               </CardTitle>
               <CardDescription className="text-gray-400">
                 Fullstack web application
@@ -142,10 +142,10 @@ export function PortfolioSection() {
           <Card className="flex bg-gray-800 border-gray-700 hover:border-green-400 transition-colors">
             <CardHeader>
               <CardTitle className="text-white font-mono">
-                Analytics Dashboard
+                Coming soon
               </CardTitle>
               <CardDescription className="text-gray-400">
-                Data visualization platform
+                Lorem ipsum dolor sit amet.
               </CardDescription>
             </CardHeader>
             <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden mx-6 mb-4 relative">
@@ -158,8 +158,8 @@ export function PortfolioSection() {
             </div>
             <CardContent className="space-y-4">
               <p className="text-gray-300 text-sm">
-                Interactive dashboard built with Vue.js and D3.js. Processes
-                large datasets and provides real-time insights.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus, eaque.
               </p>
               <div className="flex flex-col gap-2 lg:flex-row">
                 <Button

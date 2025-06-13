@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sande Effendi | Portfolio Web",
   description: "A personal portfolio site built with Next.js and Tailwind CSS.",
+  icons: {
+    icon: "code-favicon-Photoroom.ico"
+  }
 };
 
 export default function RootLayout({
